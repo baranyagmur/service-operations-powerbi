@@ -89,38 +89,6 @@ Cleaning steps applied to `service_tickets`:
 - Reviewed every column with **Column Quality** and **Column Distribution** to
   confirm data types and check error/empty rates before loading.
 
----
-
-## Example SQL
-
-If the data lived in a relational database instead of CSV files, these are the
-kinds of queries that would feed the report:
-
-```sql
--- Ticket volume and average resolution time by machine type
-SELECT m.machine_type,
-       COUNT(*)                  AS total_tickets,
-       AVG(t.resolution_hours)   AS avg_resolution_hours
-FROM   service_tickets t
-JOIN   machines m ON t.machine_id = m.machine_id
-GROUP  BY m.machine_type
-ORDER  BY total_tickets DESC;
-
--- First-time-fix rate by technician team
-SELECT te.team,
-       AVG(CASE WHEN t.first_time_fix = 'Yes' THEN 1.0 ELSE 0 END) AS first_time_fix_rate
-FROM   service_tickets t
-JOIN   technicians te ON t.technician_id = te.technician_id
-GROUP  BY te.team;
-
--- Monthly service cost
-SELECT d.month_name,
-       SUM(t.cost_eur) AS total_cost
-FROM   service_tickets t
-JOIN   dim_date d ON t.date = d.date
-GROUP  BY d.month_name, d.month_number
-ORDER  BY d.month_number;
-```
 
 ---
 
