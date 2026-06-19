@@ -1,0 +1,41 @@
+machine_id,machine_type,model,install_year,customer_id
+1001,Coin Counter,COI-S700,2021,5
+1002,Banknote Sorter,BAN-X2,2022,7
+1003,Cash Recycler,CAS-S400,2018,4
+1004,Cash Recycler,CAS-X1,2017,7
+1005,Banknote Sorter,BAN-S400,2023,6
+1006,Authentication Scanner,AUT-S400,2023,1
+1007,Shredder,SHR-Pro,2017,7
+1008,Banknote Sorter,BAN-Pro,2019,10
+1009,Cash Recycler,CAS-Pro,2018,2
+1010,Banknote Sorter,BAN-X2,2023,5
+1011,Banknote Sorter,BAN-X2,2023,2
+1012,Shredder,SHR-S400,2020,6
+1013,Coin Counter,COI-S400,2019,4
+1014,Cash Recycler,CAS-X1,2021,3
+1015,Authentication Scanner,AUT-X2,2018,8
+1016,Shredder,SHR-S400,2022,9
+1017,Coin Counter,COI-S400,2023,1
+1018,Coin Counter,COI-X1,2023,6
+1019,Shredder,SHR-S400,2017,4
+1020,Authentication Scanner,AUT-S400,2018,8
+1021,Shredder,SHR-S700,2018,5
+1022,Coin Counter,COI-X2,2022,9
+1023,Authentication Scanner,AUT-S400,2022,10
+1024,Shredder,SHR-Pro,2020,6
+1025,Coin Counter,COI-X2,2021,8
+1026,Banknote Sorter,BAN-X1,2023,2
+1027,Coin Counter,COI-X2,2023,7
+1028,Authentication Scanner,AUT-X1,2020,7
+1029,Authentication Scanner,AUT-S700,2021,5
+1030,Authentication Scanner,AUT-X1,2022,2
+1031,Authentication Scanner,AUT-S400,2023,6
+1032,Banknote Sorter,BAN-S400,2020,3
+1033,Shredder,SHR-X1,2022,5
+1034,Authentication Scanner,AUT-X2,2021,2
+1035,Cash Recycler,CAS-Pro,2021,4
+1036,Coin Counter,COI-S400,2023,3
+1037,Authentication Scanner,AUT-Pro,2017,10
+1038,Cash Recycler,CAS-S700,2017,2
+1039,Cash Recycler,CAS-S400,2018,1
+1040,Coin Counter,COI-Pro,2017,2

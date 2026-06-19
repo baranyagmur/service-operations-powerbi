@@ -1,0 +1,11 @@
+customer_id,customer_name,region,contract_tier
+1,Central Bank of Atlantis,DACH,Standard
+2,Nordmark Retail Bank,Southern Europe,Premium
+3,Helvetia Cash Services,Western Europe,Premium
+4,Banco del Sol,DACH,Standard
+5,Rheinland Sparkasse,Overseas,Basic
+6,Pacific Trust Bank,DACH,Standard
+7,Adriatic Federal Reserve,DACH,Premium
+8,Maple Leaf Currency Co.,Western Europe,Standard
+9,Sahara National Bank,Overseas,Premium
+10,Nimbus Financial Group,Overseas,Basic
